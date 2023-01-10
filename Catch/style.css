@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: white;
+}
+
+#my-canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.game-over {
+    display: none;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#game-over-text {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1rem;
+}
+
+#score, #game-over-text {
+    margin: 1.2vw;
+}
+
+#btn {
+    background-color: transparent;
+    margin: 0.2vw;
+    padding: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+
+#btn:hover{
+    background-color: blueviolet;
+}
+
+.game-on-score {
+    display: block;
+    position: fixed;
+    margin-left: 85%;
+    margin-top: 20px;
+}
